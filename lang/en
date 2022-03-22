@@ -1,0 +1,146 @@
+index_title=Supervisor
+index_start=Start Supervisor
+index_start_msg=Click this button to start the Supervisor
+index_stop=Stop Supervisor
+index_stop_msg=Click this button to stop the Supervisor
+index_restart=Reload Supervisor
+index_restart_msg=Click this button to reload the Supervisor
+index_notinstalled=The supervisor could not be found on your system. Maybe it is not installed, or your <a href='$1'>Supervisor module configuration</a> is incorrect.
+index_version=Supervisor version  $1
+index_stopall=Stop All
+index_notrunning=<h4 style="color:red;">Supervisor is not running.Start supervisor to see subprocesses.</h4>
+index_restartpage=Refresh Page
+index_startall=Start All
+start_supervisor_error=Start error
+start_supervisor_webminlog=Start supervisor daemon
+
+stop_supervisor_error=Stop error
+stop_supervisor_webminlog=Stop supervisor daemon
+
+restart_supervisor_error=Reload error
+restart_supervisor_webminlog=Reload supervisor daemon
+
+edit_manual_title=Edit manual
+edit_manual_error=Edit manual error
+edit_manual_errorfile=Edit manual file error
+edit_manual_ok=Ok
+edit_manual_save=Save
+edit_manual_webminlog=Edit configuration file manually
+edit_manual_subprocess_files=Edit subprocess configuration files
+edit_manual_subprocess_title=Edit subprocess configutation files
+edit_manual_subprocess_error=Edit subprocess configuration files error
+edit_manual_subprocess_webminlog=Edit subprocess configuration file
+
+get_subprocess_files_noneerr=Subprocess files was included supervisor configuration files.Edit supervisor configuration files or check file path from <a href='$1'>supervisor module configuration.</a>
+get_subprocess_files_notexist=File "$1" not found.
+get_subprocess_files_readerr="$1" could not read.
+
+do_restart_all_webminlog=Restart all subprocesses
+do_stop_all_webminlog=Stop all subprocesses
+
+
+list_processes_tabletitle=Subprocesses
+list_processes_name=Name
+list_processes_status=Status
+list_processes_pid=PID
+list_processes_uptime=Uptime
+list_processes_startstop=Start/Stop
+list_processes_restart=Restart
+list_processes_tail=Tail
+list_processes_stopall=Stop All
+list_processes_restartall=Refresh All
+list_processes_create=Create Subprocess
+list_processes_createmanually=Create Subprocess Manually
+list_processes_start=Start
+list_processes_reread=Reread
+list_processes_creategroup=Create Group
+index_stop=Stop
+index_clear=Clear log
+
+create_group_title=Create Group
+create_group_name=Group Name
+create_group_programs=Programs(Comma separated list)
+create_group_priority=Priority
+create_group_required=<i style='color:red;'>*</i> Required
+create_group_emptyinfo=If you leave the field empty, it will not be added to the configuration file and the supervisor will use the default value.
+create_group_key=Key
+create_group_value=Value
+create_group_save=Save
+create_group_fileexisterr=File "$1" exist.
+create_group_successinfo=The operation is successful.
+create_group_restartinfo=Supervisor restarted automatically.
+create_group_norestartinfo=Supervisor did not restart automatically.
+create_group_processnotexisterr=Process "$1" is not exist.
+create_group_namerequired=Name field is required.
+create_group_programsrequired=Programs field is required.
+create_group_webminlog=Create group
+
+do_process_stop_webminlog=Stop process
+do_process_start_webminlog=Start process
+do_process_restart_webminlog=Restart process
+do_process_clear_webminlog=Clear process log
+
+tail_title=Tail process
+tail_table_title=Tail $1
+
+create_process_title=Create Subprocess
+create_process_process_name=Process name
+create_process_command=Command
+create_process_numprocs=Numprocs
+create_process_events=Events
+create_process_buffer_size=Buffer size
+create_process_directory=Directory
+create_process_umask=Umask
+create_process_priority=Priority
+create_process_autostart=Autostart
+create_process_autorestart=Autorestart
+create_process_startsecs=Startsecs
+create_process_startretries=Startretries
+create_process_exitcodes=Exitcodes
+create_process_stopsignal=Stopsignal
+create_process_stopwaitsecs=Stopwaitsecs
+create_process_stopasgroup=Stopasgroup
+create_process_killasgroup=Killasgroup
+create_process_user=User
+create_process_redirect_stderr=Redirect_stderr
+create_process_stdout_logfile=Stdout_logfile
+create_process_stdout_logfile_maxbytes=Stdout_logfile_maxbytes
+create_process_stdout_logfile_backups=Stdout_logfile_backups
+create_process_stdout_events_enabled=Stdout_events_enabled
+create_process_stderr_logfile=Stderr_logfile
+create_process_stderr_logfile_maxbytes=Stderr_logfile_maxbytes
+create_process_stderr_logfile_backups=Stderr_logfile_backups
+create_process_stderr_events_enabled=Stderr_events_enabled
+create_process_environment=Environment
+create_process_serverurl=Serverurl
+create_process_save=Save
+create_process_webminlog=Create subprocess
+create_process_namerequired=Name is required.
+create_process_commandrequired=Command is required.
+create_process_fileexisterr=File "$1" exist.
+create_process_success=The operation is successful.
+create_process_restartinfo=Supervisor restarted automatically.
+create_process_norestartinfo=Supervisor did not restart automatically. 
+create_process_required=<i style='color:red;'>*</i> Required.
+create_process_manually=You can use <a href='create_process_manually.cgi' style='color:red'>here</a> to create subprocess manually.
+create_process_emptyinfo=If you leave the field empty, it will not be added to the configuration file and the supervisor will use the default value.
+create_process_key=Key
+create_process_value=Value
+create_process_fileinfo=The subprocess's configuration will have written to "$1".If you want to change it, see <a href='$2'>supervisor module configuration.</a>
+create_process_noprocess=No subprocess.
+
+create_processmanually_filename=File name 
+create_processmanually_filecontent=File content 
+create_processmanually_filenamerequired=File name is required.
+create_processmanually_contentrequired=File content is required.
+create_processmanually_webminlog=Create subprocess manually
+create_processmanually_title=Create Subprocess Manually
+create_processmanually_fileinfo=The subprocess's configuration will have written to "$1".If you want to change it, see <a href='$2'>supervisor module configuration.</a>
+
+group_operations_namerequirederr=Group name field is required.
+group_operations_groupname=Group Name
+group_operations_title=Group Operations
+group_operations_startwebminlog=Start group
+group_operations_stopwebminlog=Stop group
+
+return_index=Index

@@ -1,0 +1,9 @@
+supervisor_conf=/etc/supervisord.conf
+supervisor_cmd=supervisor
+supervisorctl_cmd=supervisorctl
+start_cmd=systemctl start supervisor
+stop_cmd=systemctl stop supervisor
+restart_cmd=systemctl restart supervisor
+pid_file=/var/run/supervisord.pid
+subprocess_files_path=/etc/supervisor/conf.d/
+autorestart=0

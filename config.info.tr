@@ -1,0 +1,9 @@
+supervisor_conf=Supervisor konfigürasyon dosyası,8
+supervisord_cmd=supervisord komutu
+supervisorctl_cmd=supervisorctl komutu
+start_cmd=Supervisor servisini başlatma komutu
+stop_cmd=Supervisor servisini durdurma komutu
+restart_cmd=Supervisor servisini yeniden başlatma
+pid_file=Supervisor PID dosya konumu,8
+subprocess_files_path=Alt süreçlerin konfigürasyon dosya konumları,3,None
+autorestart=Yeni alt süreç ve grup oluşturulduğunda yeniden başlatılsın mı?,1,1-Evet,0-Hayır

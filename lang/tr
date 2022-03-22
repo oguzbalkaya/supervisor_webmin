@@ -1,0 +1,146 @@
+index_title=Supervisor
+index_start=Supervisor'u başlat
+index_start_msg=Supervisor'u başlatmak için bu butona tıklayın.
+index_stop=Supervisor'u durdur
+index_stop_msg=Supervisor'u durdurmak için bu butona tıklayın.
+index_restart=Supervisor'u yeniden başlat
+index_restart_msg=Supervisor'u yeniden başlatmak için bu butona tıklayın.
+index_notinstalled=Supervisor sisteminizde bulunamadı. Kurulu olmayabilir, veya  <a href='$1'>Supervisor modül konfigürasyonunuz</a> hatalı.
+index_version=Supervisor versiyon  $1
+index_stopall=Tümünü durdur
+index_notrunning=<h4 style="color:red;">Supervisor çalışmıyor.Alt süreçleri görmek için supervisor'u başlatın.</h4>
+index_restartpage=Sayfayı yenile
+index_startall=Hepsini başlat
+start_supervisor_error=Başlatma hatası
+start_supervisor_webminlog=Supervisor'u başlat
+
+stop_supervisor_error=Durdurma hatası
+stop_supervisor_webminlog=Supervisor'u durdur
+
+restart_supervisor_error=Yeniden başlatma hatası
+restart_supervisor_webminlog=Supervisor'u yeniden başlat
+
+edit_manual_title=Manuel düzenle
+edit_manual_error=Manuel düzenleme hatası
+edit_manual_errorfile=Manuel düzenle dosya hatası
+edit_manual_ok=Ok
+edit_manual_save=Kaydet
+edit_manual_webminlog=Manuel olarak konfigürasyon dosyasını düzenle
+edit_manual_subprocess_files=Alt süreçlerin konfigürasyonlarını düzenle
+edit_manual_subprocess_title=Alt süreçlerin konfigürasyonlarını düzenle
+edit_manual_subprocess_error=Alt süreçlerin konfigürasyonlarını düzenleme hatası
+edit_manual_subprocess_webminlog=Alt süreçlerin konfigürasyonlarını düzenle
+
+get_subprocess_files_noneerr=Alt süreçlerin konfigürasyonları supervisor'un konfigürasyon dosyasına dahil edilmiş.Dosyayı düzenleyin ya da  <a href='$1'>supervisor modük konfigürasyonunu</a> güncelleyin.
+get_subprocess_files_notexist="$1" dosyası bulunamadı.
+get_subprocess_files_readerr="$1" dosyası okunamadı.
+
+do_restart_all_webminlog=TÜm alt süreçleri yeniden başlat
+do_stop_all_webminlog=Tüm alt süreçleri durdur
+
+
+list_processes_tabletitle=Alt süreçler
+list_processes_name=İsim
+list_processes_status=Durum
+list_processes_pid=PID
+list_processes_uptime=Çalışma süresi
+list_processes_startstop=Başlat/Durdur
+list_processes_restart=Yeniden başlat
+list_processes_tail=Tail
+list_processes_stopall=Tümünü durdur
+list_processes_restartall=Tümünü yeniden başlat
+list_processes_create=Alt süreç oluştur
+list_processes_createmanually=Manuel olarak alt süreç oluştur
+list_processes_start=Başlat
+list_processes_reread=Yeniden oku
+list_processes_creategroup=Grup oluştur
+index_stop=Durdur
+index_clear=Logları temizle
+
+create_group_title=Grup oluştur
+create_group_name=Grup adı
+create_group_programs=Programlar(Virgülle ayrılmış liste)
+create_group_priority=Öncelik
+create_group_required=<i style='color:red;'>*</i> Gerekli.
+create_group_emptyinfo=Boş bıraktığınız alanlar konfigürasyona eklenmez.Supervisor varsayılan ayarları kullanır.
+create_group_key=Anahtar
+create_group_value=Değer
+create_group_save=Kaydet
+create_group_fileexisterr="$1" dosyası zaten var.
+create_group_successinfo=İşlem başarılı
+create_group_restartinfo=Supervisor otomatik olarak yeniden başlatıldı.
+create_group_norestartinfo=Supervisor otomatik olarak yeniden başlatılmadı.
+create_group_processnotexisterr="$1" alt süreci mevcut değil.
+create_group_namerequired=İsim alanı gereklidir.
+create_group_programsrequired=Programlar alanı gereklidir.
+create_group_webminlog=Grup oluştur
+
+do_process_stop_webminlog=Alt süreci durdur
+do_process_start_webminlog=Alt süreci başlat
+do_process_restart_webminlog=Alt süreci yeniden başlat
+do_process_clear_webminlog=Alt süreç loglarını temizle
+
+tail_title=Tail alt süreç
+tail_table_title=Tail $1
+
+create_process_title=Alt süreç oluştur
+create_process_process_name=Süreç adı
+create_process_command=Komut
+create_process_numprocs=Numprocs
+create_process_events=Events
+create_process_buffer_size=Buffer size
+create_process_directory=Directory
+create_process_umask=Umask
+create_process_priority=Priority
+create_process_autostart=Autostart
+create_process_autorestart=Autorestart
+create_process_startsecs=Startsecs
+create_process_startretries=Startretries
+create_process_exitcodes=Exitcodes
+create_process_stopsignal=Stopsignal
+create_process_stopwaitsecs=Stopwaitsecs
+create_process_stopasgroup=Stopasgroup
+create_process_killasgroup=Killasgroup
+create_process_user=User
+create_process_redirect_stderr=Redirect_stderr
+create_process_stdout_logfile=Stdout_logfile
+create_process_stdout_logfile_maxbytes=Stdout_logfile_maxbytes
+create_process_stdout_logfile_backups=Stdout_logfile_backups
+create_process_stdout_events_enabled=Stdout_events_enabled
+create_process_stderr_logfile=Stderr_logfile
+create_process_stderr_logfile_maxbytes=Stderr_logfile_maxbytes
+create_process_stderr_logfile_backups=Stderr_logfile_backups
+create_process_stderr_events_enabled=Stderr_events_enabled
+create_process_environment=Environment
+create_process_serverurl=Serverurl
+create_process_save=Kaydet
+create_process_webminlog=Alt süreç oluştur.
+create_process_namerequired=İsim alanı gereklidir.
+create_process_commandrequired=Komut alanı gereklidir.
+create_process_fileexisterr="$1" dosyası zaten var.
+create_process_success=İşlem başarılı.
+create_process_restartinfo=Supervisor otomatik olarak yeniden başlatıldı.
+create_process_norestartinfo=Supervisor otomatik olarak yeniden başlatılmadı. 
+create_process_required=<i style='color:red;'>*</i> Gerekli.
+create_process_manually=Manuel olarak alt süreç oluşturmak için <a href='create_process_manually.cgi' style='color:red'>burayı</a> kullanabilirsiniz.
+create_process_emptyinfo=Boş bıraktığınız alanlar konfigürasyona eklenmez.Supervisor varsayılan ayarları kullanır.
+create_process_key=Anahtar
+create_process_value=Değer
+create_process_fileinfo=Alt süreçlerin konfigürasyonu "$1" e yazılacaktır.Değiştirmek için,  <a href='$2'>supervisor modül konfigürasyonunu.</a> değiştirin.
+create_process_noprocess=Alt süreç yok.
+
+create_processmanually_filename=Dosya adı 
+create_processmanually_filecontent=Dosyas içeriği
+create_processmanually_filenamerequired=Dosya adı gereklidir.
+create_processmanually_contentrequired=Dosya içeriği gereklidir.
+create_processmanually_webminlog=Manuel olarak alt süreç oluştur
+create_processmanually_title=Manuel olarak alt süreç oluştur
+create_processmanually_fileinfo=Alt süreçlerin konfigürasyonu "$1" e yazılacaktır.Değiştirmek için,  <a href='$2'>supervisor modül konfigürasyonunu.</a> değiştirin.
+
+group_operations_namerequirederr=Grup adı gereklidir.
+group_operations_groupname=Grup adı
+group_operations_title=Grup Operasyonları
+group_operations_startwebminlog=Grubu başlat
+group_operations_stopwebminlog=Grubu durdur
+
+return_index=Index
