@@ -1,6 +1,5 @@
 #!/usr/bin/perl
 require 'supervisor-lib.pl';
-
 my $pid = &get_pid();
 my $version = &get_version();
 
@@ -18,6 +17,7 @@ if( !defined($version) ){
 }
 else
 {
+
 	###
 	&ui_print_header(undef, $text{'index_title'}, "", undef, 1, 1, undef,
 	&buttons()."<br>".
@@ -34,19 +34,22 @@ else
         push(@titles, $text{'edit_manual_subprocess_files'});
         push(@icons, "images/edit_manual.png");
 
+	#Add node
+	
+	push(@links, "nodes.cgi");
+	push(@titles, "Nodes");
+	push(@icons, "images/server.gif");	
 
 	&icons_table(\@links, \@titles, \@icons, 4);
 
 	print &ui_hr();
+		
 	
-
-
-
 	if($pid)
 	{
 		&list_processes();
 		print &ui_hr();
-		&group_operations();
+		&group_operations("index",undef);
 	
 	}
 	else

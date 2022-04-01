@@ -143,4 +143,77 @@ group_operations_title=Group Operations
 group_operations_startwebminlog=Start group
 group_operations_stopwebminlog=Stop group
 
+node_perlmodule_err=Perl modules "RPC::XML" and "RPC::XML::Client" are required for this section.Please install them.
+
+nodes_title=Nodes
+nodes_list=Node list
+nodes_list_nonode=No node.
+node_name=Node name
+node_status=Status
+node_notexisterr=Node not found.
+node_rpc2address=RPC2 Address
+node_delete=Delete
+create_node_title=Create Node
+create_node_name=Node name
+create_node_rpc2address=RPC2 address
+create_node_create=Create
+create_node_fileinfo=The node configuration will have written to "$1".If you want to change it, see <a href='$2'>supervisor module configuration.</a>
+create_node_nodeexisterr=Node exist.
+create_node_namerequired=Name field is required.
+create_node_rpc2addressrequired=RPC2 address field is required.
+create_node_webminlog=Create node
+delete_node_webminlog=Delete node
+delete_node_notfound=Node not found.
+delete_node_namerequired=Name is required.
+
+node_details_title=Node details : "$1"
+node_details_generalinfo=General informations
+node_details_name=Node name
+node_details_rpc2address=RPC2 address
+node_details_apiversion=API version
+node_details_supervisorversion=Supervisor version
+node_details_state=State
+node_details_statecode=State code
+node_details_pid=PID
+node_details_processname=Name
+node_details_group=Group
+node_details_description=Description
+node_details_state=State
+node_details_startstop=Start/Stop
+node_details_restart=Restart
+node_details_clearlog=Clear log
+node_details_more=More Operation
+node_details_readstdout=Read Process Stdout Log
+node_details_readstderr=Read Process Stderr Log
+node_details_tailstdout=Tail Process Stdout
+node_details_tailstderr=Tail Process Stderr
+node_details_go=Go
+node_details_offset=Offset
+node_details_length=Length
+node_details_connectionerr=Unable to connect with "$1". 
+
+do_node_process_startwebminlog=Start node process
+do_node_process_stopwebminlog=Stop node process
+do_node_process_restartwebminlog=Restart node process
+do_node_process_clearlogwebminlog=Clear logs node process
+do_node_process_readstdoutlog=Read Stdout Log
+do_node_process_readstdoutlog_webminlog=Read Stdout Log
+do_node_process_readstderrlog=Read Stderr Log
+do_node_process_readstderrlog_webminlog=Read Stderr Log
+do_node_process_tailstdoutlog=Tail Stdout Log
+do_node_process_tailstdoutlog_webminlog=Tail Stdout Log
+do_node_process_tailstderrlog=Tail Stderr Log
+do_node_process_tailstderrlog_webminlog=Tail Stderr Log
+do_node_process_offset=Offset
+do_node_process_length=Length
+do_node_process_node=Node
+do_node_process_process=Process
+do_node_process_offseterr=Offset must be positive number.
+do_node_process_lengtherr=Length must be positive number.
+
+all_nodes_one_page=All nodes in one page
+
+
+return_back=Back Page
 return_index=Index
+return_nodes=Nodes

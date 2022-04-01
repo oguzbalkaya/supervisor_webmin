@@ -2,6 +2,7 @@
 require './supervisor-lib.pl';
 &ReadParse();
 
+
 &error($text{'group_operations_namerequirederr'}) if($in{'groupname'} eq "");
 
 if($in{'type'} eq $text{'index_startall'})

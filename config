@@ -1,6 +1,7 @@
-supervisor_conf=/etc/supervisord.conf
-supervisor_cmd=supervisor
+supervisor_conf=/etc/supervisor/supervisord.conf
+supervisord_cmd=supervisord
 supervisorctl_cmd=supervisorctl
+nodelist_path=/etc/supervisor/nodes.conf
 start_cmd=systemctl start supervisor
 stop_cmd=systemctl stop supervisor
 restart_cmd=systemctl restart supervisor

@@ -143,4 +143,78 @@ group_operations_title=Grup Operasyonları
 group_operations_startwebminlog=Grubu başlat
 group_operations_stopwebminlog=Grubu durdur
 
+node_perlmodule_err="RPC::XML" ve "RPC::XML::Client" perl modülleri bu bölüm için gereklidir.Lütfen perl modüllerini kurun.
+
+nodes_title=Düğümler
+nodes_list=Düğüm listesi
+nodes_list_nonode=Düğüm yok.
+node_name=Düğüm adı
+node_status=Statü
+node_notexisterr=Düğüm bulunamadı.
+node_rpc2address=RPC2 Adresi
+node_delete=Sil
+create_node_title=Düğüm Oluştur
+create_node_name=Düğüm adı
+create_node_rpc2address=RPC2 adresi
+create_node_create=Oluştur
+create_node_fileinfo=Düğüm konfigürasyonu "$1" dosyasına yazılacak.Değiştirmek isterseniz <a href='$2'>supervisor modül konfigürasyonundan</a> değiştirebilirsiniz.
+create_node_nodeexisterr=Düğüm zaten var.
+create_node_namerequired=İsim alanı gereklidir.
+create_node_rpc2addressrequired=RPC2 adresi alanı gereklidir.
+create_node_webminlog=Düğüm oluştur
+delete_node_webminlog=Düğüm sil
+delete_node_notfound=Düğüm bulunamadı
+delete_node_namerequired=İsim alanı gereklidir.
+
+node_details_title=Düğüm detayları : "$1"
+node_details_generalinfo=Genel bilgiler
+node_details_name=Düğüm adı
+node_details_rpc2address=RPC2 adresi
+node_details_apiversion=API versiyon
+node_details_supervisorversion=Supervisor versiyon
+node_details_state=Durum
+node_details_statecode=Durum kodu
+node_details_pid=PID
+node_details_processname=İsim
+node_details_group=Grup
+node_details_description=Tanım
+node_details_state=Durum
+node_details_startstop=Başlat/Durdur
+node_details_restart=Yeniden başlat
+node_details_clearlog=Logları temizle
+node_details_more=Daha fazla işlem
+node_details_readstdout=Stdout loglarını oku
+node_details_readstderr=Stderr loglarını oku
+node_details_tailstdout=Tail stdout log
+node_details_tailstderr=Tail stderr log
+node_details_go=Git
+node_details_offset=Offset
+node_details_length=Uzunluk
+node_details_connectionerr="$1" adresine bağlanılamadı.
+
+do_node_process_startwebminlog=Bir düğüm sürecini başlat
+do_node_process_stopwebminlog=Bir düğüm süresini durdur
+do_node_process_restartwebminlog=Bir düğüm sürecini yeniden başlat
+do_node_process_clearlogwebminlog=Bir düğüm sürecinin loglarını temizle
+do_node_process_readstdoutlog=Stdout loglarını oku
+do_node_process_readstdoutlog_webminlog=Stdout loglarını oku
+do_node_process_readstderrlog=Stderr loglarını oku
+do_node_process_readstderrlog_webminlog=Stderr loglarını oku
+do_node_process_tailstdoutlog=Tail Stdout Log
+do_node_process_tailstdoutlog_webminlog=Tail Stdout Log
+do_node_process_tailstderrlog=Tail Stderr Log
+do_node_process_tailstderrlog_webminlog=Tail Stderr Log
+do_node_process_offset=Offset
+do_node_process_length=Uzunluk
+do_node_process_node=Düğüm
+do_node_process_process=Süreç
+do_node_process_offseterr=Offset alanı pozitif bir sayı olmalıdır.
+do_node_process_lengtherr=Uzunluk alanı pozitif bir sayı olmalıdır..
+
+all_nodes_one_page=Tüm düğümleri tek sayfada göster
+
+
+return_back=Önceki Sayfa
 return_index=Index
+return_nodes=Düğümler
+

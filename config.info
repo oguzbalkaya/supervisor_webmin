@@ -1,6 +1,7 @@
 supervisor_conf=Supervisor configuration file,8
 supervisord_cmd=supervisord command
 supervisorctl_cmd=supervisorctl command
+nodelist_path=Node list path
 start_cmd=Supervisor service start command
 stop_cmd=Supervisor service stop command
 restart_cmd=Supervisor service restart command
