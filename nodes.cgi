@@ -57,10 +57,10 @@ else
 {
 	for my $node(@nodes)
 	{
-		my $status="<i style='color:green; font-weight:bold;'>CONNECTED</i>";
+		my $status="<i style='color:green; font-weight:bold;'>$text{'node_connected'}</i>";
 		if(!&check_node_connection($node->{'rpc2address'}))
 		{
-			$status="<i style='color:red;' font-weight:bold;>NOT CONNNECTED</i>";
+			$status="<i style='color:red;' font-weight:bold;>$text{'node_notconnected'}</i>";
 		}
 
 		print &ui_columns_row( [
