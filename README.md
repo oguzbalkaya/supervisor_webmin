@@ -17,7 +17,7 @@ Manage multiple supervisors from the same place.
 
 ## Installation
 
-Download supervisor.wbm.gz file from this repository ([or click to download](https://oguzbalkaya.com.tr/supervisor.wbm.gz)).
+Download supervisor.wbm.gz file from this repository ([or click to download](https://oguzbalkaya.net.tr/supervisor.wbm.gz)).
 
 Go "Webmin Main Menu > Webmin Configuration > Webmin Modules > Install > From uploaded file" and install module.
 
