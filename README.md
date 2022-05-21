@@ -23,6 +23,8 @@ Go "Webmin Main Menu > Webmin Configuration > Webmin Modules > Install > From up
 
 You can install supervisor from the module or you can review it from [here](http://supervisord.org/). 
 
+If you need more information about the module, you can read my article about the module from [here](https://www.oguzbalkaya.com.tr/2022/05/webmin-module-for-supervisor.html).
+
 ## Requirements
 
 Perl modules RPC::XML and RPC::XML:Client is required for managing multiple supervisors.
