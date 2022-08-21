@@ -193,6 +193,9 @@ node_details_go=Go
 node_details_offset=Offset
 node_details_length=Length
 node_details_connectionerr=Unable to connect with "$1". 
+check_node_status=Check node status
+check_node_status_error=Check Status Error
+check_node_status_webminlog=Check node status
 
 do_node_process_startwebminlog=Start node process
 do_node_process_stopwebminlog=Stop node process

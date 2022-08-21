@@ -36,7 +36,7 @@ print &ui_columns_end();
 print &ui_hr();
 
 
-print "<a href=allnodes.cgi>".&ui_submit($text{'all_nodes_one_page'})."</a>";
+print "<a href=allnodes.cgi>".&ui_submit($text{'all_nodes_one_page'})."</a> <a href=check_status.cgi>".&ui_submit($text{'check_node_status'})."</a>";
 
 print &ui_table_start($text{'nodes_list'}, undef, 3);
 
@@ -56,11 +56,11 @@ if($size == 0)
 else
 {
 	for my $node(@nodes)
-	{
-		my $status="<i style='color:green; font-weight:bold;'>$text{'node_connected'}</i>";
-		if(!&check_node_connection($node->{'rpc2address'}))
+	{	
+		$status="<i style='color:red;' font-weight:bold;>$text{'node_notconnected'}</i>";
+		if($node->{'status'} eq "1")
 		{
-			$status="<i style='color:red;' font-weight:bold;>$text{'node_notconnected'}</i>";
+			$status="<i style='color:green;' font-weight:bold;>$text{'node_connected'}</i>";
 		}
 
 		print &ui_columns_row( [

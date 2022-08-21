@@ -1,7 +1,6 @@
 supervisor_conf=Supervisor konfigürasyon dosyası,8
 supervisord_cmd=supervisord komutu
 supervisorctl_cmd=supervisorctl komutu
-nodelist_path=Düğüm listesinin tutulacağı dosya yolu
 start_cmd=Supervisor servisini başlatma komutu
 stop_cmd=Supervisor servisini durdurma komutu
 restart_cmd=Supervisor servisini yeniden başlatma

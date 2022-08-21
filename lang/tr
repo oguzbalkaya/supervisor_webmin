@@ -193,6 +193,9 @@ node_details_go=Git
 node_details_offset=Offset
 node_details_length=Uzunluk
 node_details_connectionerr="$1" adresine bağlanılamadı.
+check_node_status=Düğüm durumlarını kontrol et
+check_node_status_error=Statü kontrol hatası
+check_node_status_webminlog=Düğüm statülerini kontrol et
 
 do_node_process_startwebminlog=Bir düğüm sürecini başlat
 do_node_process_stopwebminlog=Bir düğüm süresini durdur

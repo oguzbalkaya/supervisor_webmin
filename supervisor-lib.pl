@@ -430,13 +430,14 @@ sub get_nodes
 	{
 		s/\r|\n//g;
 		s/#.*$//;
-		my ($name,$rpc2address) = split(/\s+/,$_);		
+		my ($name,$rpc2address,$status) = split(/\s+/,$_);		
 		if($name ne "" && $rpc2address ne "")
 		{
 			push(@nodes, { 
 					'name' => $name,
 					'rpc2address' => $rpc2address,
-					'line' => $line
+					'line' => $line,
+					'status' => $status
 				});
 		}
 		$line++;
@@ -465,7 +466,7 @@ sub save_node
 	my($node_name,$rpc2address)=@_;
 	&error($text{'create_node_nodeexisterr'}) if(defined(&get_node_info($node_name)));
 	open_tempfile(CONF,">>$config{'nodelist_path'}");
-	print_tempfile(CONF, $node_name."  ".$rpc2address."\n");
+	print_tempfile(CONF, $node_name."  ".$rpc2address."  0\n");
 	close_tempfile(CONF);
 }
 
@@ -755,5 +756,21 @@ sub check_node_connection
 	{
 		return 0;
 	}
+}
+
+
+sub check_node_status
+{
+	my @nodes = &get_nodes();
+	my $lref = &read_file_lines($config{'nodelist_path'});
+	for my $node(@nodes)
+	{
+		if(&check_node_connection($node->{'rpc2address'}))
+		{
+			my $newline = "$node->{'name'}  $node->{'rpc2address'}  1\n";
+			$lref->[$node->{'line'}] = $newline;
+		}
+	}
+	&flush_file_lines($config{'nodelist_path'});
 }
 
