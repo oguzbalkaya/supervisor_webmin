@@ -14,6 +14,12 @@ Start and stop groups.
 
 Manage multiple supervisors from the same place.
 
+## Updates
+
+- **21.08.2022**
+
+"Check node status" button has been added.  The module won't always check the connection of nodes. If you want to check the connections, you need to click the button. If you enter the "All nodes in one page" section, you will only see the nodes that were connected the last time you clicked the "Check node status" button.
+
 
 ## Installation
 
@@ -47,7 +53,7 @@ Perl modules RPC::XML and RPC::XML:Client is required for managing multiple supe
 
 ![create_group](https://user-images.githubusercontent.com/44072450/161348094-1b369bb6-b932-482a-aabd-05e41903075d.png)
 
-![nodes](https://user-images.githubusercontent.com/44072450/161348108-bbf9869f-7e97-42f3-8b17-2f0c4ad0517b.png)
+![nodes](https://user-images.githubusercontent.com/44072450/185803171-6e2b14cb-2893-48da-a354-1214fcedbd99.png)
 
 ![node_details](https://user-images.githubusercontent.com/44072450/161348164-4de986ca-56b2-4160-970b-059af7a3c8c5.png)
 
